@@ -63,7 +63,7 @@ body{
 }
 
 .discord-logo {
-    background-image: url(discordlogo.svg);
+    background-image: url(res/discordlogo.svg);
     background-position: center;
     background-repeat: no-repeat;
     height: 42px;
