@@ -63,10 +63,11 @@ p {
     font-size: 25px;
 }
 
-.commands-link {
+.navbar-link {
     margin-top: 20px;
     line-height: 50px;
     vertical-align: middle;
+    margin-left: 15px;
     color: white;
     font-size: 28px;
     text-decoration: none;
@@ -162,7 +163,7 @@ p {
     margin-top: 20px;
     width: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     border-top: solid black;
 }
 
@@ -181,10 +182,6 @@ p {
     width: 50%;
 }
 
-.command-name {
-    margin-top: 9%;
-}
-
-.command-description {
-    margin-top: 9%;
+.small-text {
+    font-size: 18px;
 }
