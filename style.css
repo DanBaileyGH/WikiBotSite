@@ -1,4 +1,9 @@
-body{
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
     margin: 0;
     align-items: center;
     color: white;
@@ -6,16 +11,16 @@ body{
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 7rem;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 4rem;
     margin-bottom: 0px;
 }
 
 p {
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 .text-accent {
@@ -180,8 +185,9 @@ p {
 .command-text {
     padding-top: 20px;
     width: 50%;
+    display: grid;
 }
 
 .small-text {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
