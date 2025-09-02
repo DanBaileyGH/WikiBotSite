@@ -36,6 +36,7 @@ p {
     align-items: normal;
 }
 
+
 .top-bar {
     display: flex;
     flex-flow: row nowrap;
